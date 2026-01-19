@@ -1,0 +1,65 @@
+# Python 字节码文件
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# 虚拟环境
+venv/
+.venv/
+env/
+.env/
+ENV/
+
+# 环境变量和配置
+.env
+config.json
+
+# 数据和日志目录
+data/
+logs/
+outputs/
+*.log
+
+# 数据库文件
+*.db
+*.sqlite
+*.sqlite3
+
+# IDE 和编辑器
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 测试和覆盖率
+.coverage
+htmlcov/
+.pytest_cache/
+.tox/
+
+# 构建和分发
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# 文档和脑图
+docs/
+brain/
+implementation_plan.md
+task.md
+walkthrough.md
+
+# 其他
+*.bak
+*.tmp
+scripts/
+*.vbs

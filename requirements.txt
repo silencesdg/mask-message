@@ -1,0 +1,7 @@
+playwright
+feedparser
+requests
+openai
+schedule
+akshare
+pandas

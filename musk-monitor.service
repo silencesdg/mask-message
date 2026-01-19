@@ -1,0 +1,17 @@
+[Unit]
+Description=Musk Tweet ETF Monitor Service
+After=network.target
+
+[Service]
+# 请根据你的实际路径修改 WorkingDirectory 和 ExecStart
+Type=simple
+User=YOUR_USER_NAME
+WorkingDirectory=/path/to/mask-message
+ExecStart=/usr/bin/python3 -m src.main
+Restart=always
+RestartSec=10
+StandardOutput=append:/path/to/mask-message/data/output.log
+StandardError=append:/path/to/mask-message/data/error.log
+
+[Install]
+WantedBy=multi-user.target
